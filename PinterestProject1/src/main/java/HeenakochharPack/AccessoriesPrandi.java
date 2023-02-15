@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class AccessoriesPrandi {
 	  private WebDriver driver;
-		
+		827382hkjqwheiu23yeqjwdnjw
 		private Actions act;
 		
 		@FindBy (xpath ="//h1[@class='entry-title title']")
