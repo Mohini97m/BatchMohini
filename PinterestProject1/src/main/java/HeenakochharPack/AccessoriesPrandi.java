@@ -20,12 +20,12 @@ public class AccessoriesPrandi {
 		@FindBy (xpath ="(//a[text()='Parandi'])[1]")
 		private WebElement parandi;
 		
-		@FindBy (xpath ="//a[@aria-label='Grid view 2']")
+/*		@FindBy (xpath ="//a[@aria-label='Grid view 2']")
 		private WebElement gridview2; 
 		
 		@FindBy (xpath ="//a[@aria-label='Grid view 3']")
 		private WebElement gridview3; 
-		 
+*/
 		@FindBy (xpath ="(//span[text()='Add to wishlist'])[1]")
 		private WebElement addtowishlist1;
 			
