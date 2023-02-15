@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="2" parallel ="classes" > 
+
+  <test  name="ChromeTest">
+  <parameter name = "browser123" value = "Chrome"></parameter>
+    <classes> 
+     <class name="TestNgPack1.HeenaKachhorAssertUse"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  
+  
+  <test name="EdgeTest">
+  <parameter name = "browser123" value = "Edge"></parameter>
+    <classes> 
+     <class name="TestNgPack1.HeenaKachhorAssertUse"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  
+  
+   </suite> <!-- Suite -->

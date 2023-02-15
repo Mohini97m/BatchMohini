@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite"  parallel = "classes" >
+  <test thread-count="2" name="ChromeTest">
+  <parameter name="browser123" value="Chrome"></parameter>
+    <classes>
+     <class name="TestNgPack.HeenaKachorTest"/>
+     <class name="TestNgPack.HeenaKachorTest1"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  
+  
+   <test name="EdgeTest">
+  <parameter name="browser123" value="Edge"></parameter>
+    <classes>
+     <class name="TestNgPack.HeenaKachorTest"/>
+     <class name="TestNgPack.HeenaKachorTest1"/>
+    </classes>
+  </test> <!-- FireFoxTest -->
+</suite> <!-- TestSuite -->
