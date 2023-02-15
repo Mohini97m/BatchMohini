@@ -27,7 +27,8 @@ public class ChashParandi {
 	}
 	public void ClickaddtocartButton()
 	{
-		addtocart.click();
+    //		addtocart.click();
+		addtocart.sendKeys();
 	}
 
 	public void ClickviewcartButton()
